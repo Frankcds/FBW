@@ -1,0 +1,214 @@
+.background .text{
+	width: 370px;
+	height: 80px;
+	margin:0 auto;
+	margin-top: 78px;
+}
+.text img{
+	float: left;
+	margin:16px 0 0 0;
+}
+.text .prosit{
+	width: 174px;
+	height: 50px;
+	float: left;
+	margin:15px 0 0 12px;
+}
+.text .prosit h2{
+	font-size: 15px;
+	line-height: 30px;
+}
+.text .prosit p{
+	font-size: 15px;
+	line-height: 25px;
+}
+.text .prosit p span{
+	color: #ff9000;
+}
+.text button{
+	width: 121px;
+	height: 32px;
+	background: #ff9000;
+	font-size: 17px;
+	color: #fff;
+	font-weight: bolder;
+	float: left;
+	margin:40px 0 0 12px;
+	cursor: pointer;
+}
+.code3{
+	width: 201px;
+	height: 216px;
+	border:1px solid #ccc;
+	margin:0 auto;
+	margin-top: 60px;
+}
+.code3 img{
+	display: block;
+	margin:0 auto;
+
+}
+.code3 img:first-child{
+	margin-top: 30px;
+}
+
+.pop{
+	width: 358px;
+	height: 380px;
+	border-radius: 10px;
+	border: 1px solid #cdfdd6;
+}
+.pop ul{
+	width: 358px;
+	height: 55px;
+}
+.pop ul li{
+	width: 179px;
+	height: 55px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #999;
+	line-height: 55px;
+	border-bottom: 1px solid #49a75b;
+	cursor: pointer;
+}
+.pop ul li:first-child.change{
+  border-bottom: 4px solid #49a75b;
+  color: #49a75b;
+  box-sizing: border-box;
+}
+.pop ul li:last-child.change{
+  border-bottom: 4px solid #49a75b;
+  color: #49a75b;
+  box-sizing: border-box;
+}
+.pop .loginB{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	/* display: none; */
+}
+.pop .loginB p{
+	margin-top: 30px;
+}
+.contentShow .pop .loginB p #phone,.contentShow{
+	z-index: 999;
+}
+.contentShow .pop .loginB p #phone,.contentShow .pop .loginB p #pwd{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.contentShow .pop .loginB p:nth-child(3){
+	margin-top: 10px;
+}
+.contentShow .pop .loginB p input[id=box]{
+	float: left;
+}
+.contentShow .pop .loginB p span{
+	float: left;
+	margin-left: 5px;
+}
+.contentShow .pop .loginB p input::-webkit-input-placeholder{
+	text-indent: 40px;
+}
+.contentShow .pop .codelogin p input::-webkit-input-placeholder{
+	text-indent: 40px;
+}
+.contentShow .pop .loginB p a{
+	float: right;
+}
+.contentShow .pop .loginB #login-btn{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.contentShow .pop .loginB .error{
+	color: red;
+	display: none;
+}
+.contentShow .pop .codelogin{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	display: none;
+}
+.contentShow .pop .codelogin p:not(#last){
+	margin-top: 25px;
+}
+.contentShow .pop .codelogin p:first-child input{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.contentShow .pop .codelogin p:nth-child(2) input{
+	width: 124px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.contentShow .pop .codelogin p:nth-child(3) input{
+	width: 124px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.contentShow .pop .codelogin p:nth-child(3) button{
+	width: 100px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 5px;
+}
+.contentShow .pop .codelogin #last{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.contentShow .pop .codelogin p a{
+	color: #38a5e8;
+}
+.contentShow .pop .now{
+	width: 339px;
+	height: 52px;
+	background: #f7fbf5;
+	margin: 0 auto;
+	line-height: 52px;
+	margin-top: 30px;
+}
+.contentShow .pop .now p{
+	color: #000;
+}
+.contentShow .back{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+}
+.contentShow .pop{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -179px;
+	margin-top: -190px;
+	z-index: 200;
+	background: #fff;
+	display: none;
+}

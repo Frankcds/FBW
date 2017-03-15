@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/sign.css">
+	<link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/Login.css">
+    <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="js/js.js" type="text/javascript"></script>
+    <script src="js/Login.js"></script>
+</head>
+<body>
+	<!-- <div class="window"> -->  
+	<!--头部-->
+	    <div class="windowHead">
+	        <div class="head">
+	            <img src="images/logo.png" alt="" />
+	            <img src="images/logo1.png" alt="" />
+	        </div>
+	    </div>
+	    <!-- 背景部分 -->
+	    <div class="background">
+	        <!--用户部分-->
+	        <div class="user">
+	            <img src="images/icon9_1.png" alt="" class="userImg" />
+	            <span class="userText">注册会员</span>
+	            <span class="userText2">我已经注册，现在就登陆<a id="LoginShow">登陆</a></span>
+	        </div>
+	        <!-- 用户注册部分 -->
+	        <div class="register">
+	            <span>填写注册信息</span><span class="accept">接受并填写手机验证码</span><span class="succeed">注册成功</span><img src="images/regis1.png" class="registerImg1"><img src="images/regis2.png" class="registerImg2"><img src="images/regis5.png" class="registerImg3">
+
+	            <!-- 中间部分 -->
+	        <div class="text">
+               <img src="images/icon34.png">
+               <div class="prosit">
+                   <h2>恭喜您，注册已成功！</h2>
+                    <p>登录名为：<span id="phone"></span></p>
+               </div>
+               <button id="btn-login">立即登录</button>
+            </div>
+            <div class="code3">
+                <img src="images/webchat.png">
+                <img src="images/text.png">
+            </div>
+
+	<div class="contentShow" id="contentShow">
+        <div class="back"></div>
+        <div class="pop" id="pop">
+            <ul>
+                <li id="left">密码登录</li>
+                <li id="right">手机验证码登录</li>
+            </ul>
+            <div class="wrap">
+                <div class="loginB">
+                  <!--   <form > -->
+                        <p><input type="text" placeholder="手机号" id="phone" class="phone_two"></p>
+                        <p><input type="password" placeholder="密码" id="pwd" class="pwdtwo"></p>
+                        <span class="error">手机号或密码输入错误</span>
+                        <p><input type="checkbox" id="box"><span>自动登录</span>忘记密码?</p>
+                        <button id="login-btn">登录</button>
+                  <!--   </form> -->
+                </div>
+                <div class="codelogin">
+                    <!-- <form> -->
+                        <p><input type="text" placeholder="手机号" id="phone"></p>
+                        <p><input type="text" placeholder="验证码" id="pwd"><img src="images/icon32.png"><span>看不清楚?换一张</span></p>
+                        <p><input type="text" placeholder="手机验证码"><button>获取手机验证码</button></p>
+                        <button id="last">登录</button>
+                    <!-- </form> -->
+                </div>
+            </div>
+            <div class="now">
+                <p>还不是方便会员？立即注册</p>
+            </div>
+        </div>
+    </div>
+
+
+	    </div>
+	     <!-- 关于我们 -->
+	    <div class="footer">	
+	       	<div class="aboutBox">
+	       		<div class="about">
+	        		<ul>
+	        			<li>关于我们</li>
+	        			<li>免责声明</li>
+	        			<li>常见问题</li>
+	        			<li>联系我们</li>
+	        			<li class="aboutLast">人才招聘</li>
+	        		</ul>
+	        	</div>
+	       	</div>
+
+
+			<!-- 底部文字 -->
+	       	<div class="footerTextBox">
+	       		<div>Copyright@&nbsp;2013-2016&nbsp;<span>|&nbsp;苏ICP备12063526号－4苏州乐卡网络有限公司</span></div>
+	       	</div>
+	    </div>
+    <!-- </div> -->
+</body>
+</html>
